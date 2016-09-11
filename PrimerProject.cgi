@@ -4,7 +4,13 @@ echo ""
 
 echo "<html>"
 echo "<head>"
-echo 'The URI of the request is '$REQUEST_URI
+echo "<h1>"
+echo 'Current browser'
+echo $HTTP_USER_AGENT.
+echo "</h1>"
+echo 'The URI of the request is http://'
+echo $SERVER_NAME
+echo $REQUEST_URI
 echo "<link rel = "stylesheet" type = "text/css" href = proj.css>"
 echo "<title>COMP490 Project</title>"
 echo "</head>"
